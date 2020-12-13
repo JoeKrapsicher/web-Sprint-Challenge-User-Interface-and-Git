@@ -56,6 +56,29 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    align-content: center;
+
+
+}
+
+nav {
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Logo {
+
+    height: 40px;
+    align-self: center;
+    margin: 0 0 20px 0;
+}
+
+.timeLapse {
+    margin: 0 0 20px 0;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -143,4 +166,72 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.learn{
+    border: 2px solid black;
+    margin: 15px auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 10px 30px;
+    padding: 5px 15px 5px 15px;
+}
+
+.imgList{
+    display: flex;
+    flex-direction: row;
+}
+
+.infoText{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.header{
+    margin: 15px;
+}
+img{
+    margin: 0 0 15px 0;
+}
+
+#teal{
+    background-color: teal;
+}
+
+#gold{
+    background-color: gold;
+}
+
+#cadetblue{
+    background-color: cadetblue;
+}
+
+#coral{
+    background-color: coral;
+}
+
+#crimson{
+    background-color: crimson;
+}
+
+#forestgreen{
+    background-color: forestgreen;
+}
+
+#darkorchid{
+    background-color: darkorchid;
+}
+
+#hotpink{
+    background-color: hotpink;
+}
+
+#indigo{
+    background-color: indigo;
+}
+
+#dodgerblue{
+    background-color: dodgerblue;
 }
